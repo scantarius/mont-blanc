@@ -313,6 +313,7 @@ main > p {
 
   /* FOOTER */
   footer {
+    border: none;
     text-align: center;
     flex-direction: column;
   }
@@ -335,7 +336,7 @@ main > p {
   .aboutInfo {
     font-size: 16px;
     color: #fff;
-    padding: 0 0 20px 20px;
+    padding: 0 20px 20px 20px;
   }
 
   /* CREDITS */
