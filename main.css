@@ -203,12 +203,12 @@ main > p {
   }
 
   .logo > img {
+    margin-left: -30px;
     width: 250px;
     height: 250px;
   }
 
   header > a {
-    margin-left: 60px;
     margin-bottom: 20px;
 
     background: -webkit-linear-gradient(left, #a98b4c, #785a2a, #a98b4c);
@@ -263,7 +263,7 @@ main > p {
 
   .oneInfo h1,
   .threeInfo h1 {
-    margin-top: 250px;
+    margin-top: 280px;
     font-size: 24px;
     text-align: center;
   }
@@ -271,7 +271,7 @@ main > p {
   .twoInfo h1,
   .fourInfo h1 {
     position: absolute;
-    top: 52%;
+    top: 50%;
     left: 0;
     right: 0;
     font-size: 24px;
@@ -286,12 +286,12 @@ main > p {
 
   .twoInfo h2 {
     position: absolute;
-    top: 80%;
+    top: 75%;
   }
 
   .fourInfo h2 {
     position: absolute;
-    top: 60%;
+    top: 70%;
   }
 
   .twoInfo h2 {
