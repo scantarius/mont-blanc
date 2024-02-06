@@ -139,7 +139,6 @@ footer {
   flex-shrink: 0;
   flex-grow: 1;
   width: 100%;
-  overflow: hidden;
   margin: 0 0 0 0;
   background-color: #0f1626;
   border: 1px solid #917800;
@@ -171,6 +170,11 @@ footer {
   position: absolute;
   bottom: 0;
   right: 0;
+  color: #ffd700;
+}
+
+.credits a {
+  text-decoration: none;
   color: #ffd700;
 }
 
@@ -243,10 +247,9 @@ main > p {
   .fourPhoto > img {
     position: absolute;
     top: 5%;
-    right: 20%;
-    width: 250px;
+    right: 15%;
+    width: 300px;
     height: 250px;
-    /*border: 5px solid #ffd700;*/
   }
 
   #two,
@@ -259,29 +262,40 @@ main > p {
   }
 
   .oneInfo h1,
-  .twoInfo h1,
-  .threeInfo h1,
-  .fourInfo h1 {
+  .threeInfo h1 {
     margin-top: 250px;
     font-size: 24px;
     text-align: center;
   }
 
-  .twoInfo h1 {
-    margin-top: 50%;
+  .twoInfo h1,
+  .fourInfo h1 {
+    position: absolute;
+    top: 52%;
+    left: 0;
+    right: 0;
+    font-size: 24px;
+    text-align: center;
   }
 
-  .fourInfo h1 {
-    margin: 100px;
+  main h2 {
+    margin: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .twoInfo h2 {
+    position: absolute;
+    top: 80%;
+  }
+
+  .fourInfo h2 {
+    position: absolute;
+    top: 60%;
   }
 
   .twoInfo h2 {
     margin-top: -50px;
-  }
-
-  main h2 {
-    text-align: center;
-    font-size: 18px;
   }
 
   /* FOOTER */
@@ -290,7 +304,7 @@ main > p {
     flex-direction: column;
   }
 
-  /* ABOUT */
+  /* ABOUT PAGE */
 
   .aboutTitle {
     font-size: 24px;
@@ -309,5 +323,11 @@ main > p {
     font-size: 16px;
     color: #fff;
     padding: 0 0 20px 20px;
+  }
+
+  /* CREDITS */
+
+  .credits span {
+    margin-right: 10px;
   }
 }
